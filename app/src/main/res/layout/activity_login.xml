@@ -16,6 +16,7 @@
         android:id="@+id/editTxtPassword"
         android:contentDescription="@string/editTxt_inform_password"
         android:hint="@string/editTxt_inform_password"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
