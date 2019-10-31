@@ -19,6 +19,7 @@ class LoginActivity : AppCompatActivity() {
 
         val btnConfirm = findViewById<Button>(R.id.btnConfirmLogin)
         val editTextLogin = findViewById<EditText>(R.id.editTxtLogin)
+        val editTextPassword = findViewById<EditText>(R.id.editTxtLogin)
 
         btnConfirm.setOnClickListener {
             val intent = Intent(this, ResultLoginActivity::class.java)
