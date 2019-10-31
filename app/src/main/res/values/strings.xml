@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <!-- Buttons -->
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_result_login">ResultLoginActivity</string>
+    <string name="title_activity_result_register">ResultRegisterActivity</string>
+
+
+    <!-- EditText -->
+    <string name="editTxt_inform_cpf">Inform your CPF</string>
+    <string name="editTxt_inform_name">Inform your Name</string>
+    <string name="editTxt_inform_login">Inform your Login</string>
+    <string name="editTxt_inform_password">Inform your Password</string>
+
+
+</resources>

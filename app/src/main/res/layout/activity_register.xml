@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:id="@+id/editTxtName"
+        android:contentDescription="@string/editTxt_inform_name"
+        android:hint="@string/editTxt_inform_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTxtCPF"
+        android:contentDescription="@string/editTxt_inform_cpf"
+        android:hint="@string/editTxt_inform_cpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnCancelRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="@string/btn_cancel"/>
+
+        <Button
+            android:id="@+id/btnConfirmRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="2"
+            android:text="@string/btn_confirm" />
+
+    </LinearLayout>
+
+</LinearLayout>

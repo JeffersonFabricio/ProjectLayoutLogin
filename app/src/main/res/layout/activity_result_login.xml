@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtViewResultLoginHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="Your Login is: "
+        android:textSize="25dp"
+        android:hint="Your Login is: "/>
+
+    <TextView
+        android:id="@+id/txtViewResultLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtViewResultLoginHello"
+        android:textSize="25dp"
+        android:contentDescription="here is your login"
+        android:hint="here is your login" />
+
+    <TextView
+        android:id="@+id/txtViewResultLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewResultLoginHello"
+        android:textSize="25dp"
+        android:text="this is your password: "
+        android:hint="this is your password: " />
+
+    <TextView
+        android:id="@+id/txtViewResultPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewResultLogin"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/txtViewResultLoginPassword"
+        android:text="Password" />
+
+</RelativeLayout>

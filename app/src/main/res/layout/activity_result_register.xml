@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/txtViewResultLoginHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="Hello, "
+        android:textSize="25dp"
+        android:hint="Hello,"/>
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtViewResultLoginHello"
+        android:contentDescription="your name is here"
+        android:textSize="25dp"
+        android:hint="Your name is here" />
+
+    <TextView
+        android:id="@+id/txtViewYourCPF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewResultLoginHello"
+        android:textSize="25dp"
+        android:text="Your CPF is: "
+        android:hint="Your CPF is: "/>
+
+    <TextView
+        android:id="@+id/txtViewCPF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtViewResultLoginHello"
+        android:layout_toRightOf="@id/txtViewYourCPF"
+        android:textSize="25dp"
+        android:text="txtViewResultLoginCPF" />
+
+</RelativeLayout>
