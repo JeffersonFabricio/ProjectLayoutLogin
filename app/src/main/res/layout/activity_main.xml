@@ -20,7 +20,7 @@
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="39dp"
+        android:textSize="39sp"
         android:textColor="@color/colorAccent"
         android:text="@string/btn_register" />
 
@@ -28,7 +28,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="39dp"
+        android:textSize="39sp"
         android:textColor="@color/colorAccent"
         android:text="@string/btn_login" />
 
