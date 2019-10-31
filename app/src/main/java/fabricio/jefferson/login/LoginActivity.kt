@@ -4,10 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
-
-import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
@@ -17,8 +14,7 @@ class LoginActivity : AppCompatActivity() {
 
         val btnCancel = findViewById<Button>(R.id.btnCancelLogin)
         btnCancel.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            finish()
         }
 
         val btnConfirm = findViewById<Button>(R.id.btnConfirmLogin)
