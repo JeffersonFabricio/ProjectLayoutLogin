@@ -19,5 +19,13 @@
     <string name="editTxt_inform_login">Inform your Login</string>
     <string name="editTxt_inform_password">Inform your Password</string>
 
+    <!-- TextView -->
+    <string name="txtView_your_cpf">Your CPF is: </string>
+    <string name="txtView_your_name">your name is here </string>
+    <string name="txtView_hello">Hello,  </string>
+    <string name="txtView_password">Password</string>
+    <string name="txtView_this_is_your_password">this is your password: </string>
+    <string name="txtView_here_is_your_login">here is your login </string>
+    <string name="txtView_your_login">Your Login is: </string>
 
 </resources>

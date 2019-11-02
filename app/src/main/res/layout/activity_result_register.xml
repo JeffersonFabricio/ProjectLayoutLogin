@@ -10,18 +10,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:contentDescription="Hello, "
+        android:contentDescription="@string/txtView_hello"
         android:textSize="25dp"
-        android:hint="Hello,"/>
+        android:hint="@string/txtView_hello"/>
 
     <TextView
         android:id="@+id/txtViewName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/txtViewResultLoginHello"
-        android:contentDescription="your name is here"
+        android:contentDescription="@string/txtView_your_name"
         android:textSize="25dp"
-        android:hint="Your name is here" />
+        android:hint="@string/txtView_your_name" />
 
     <TextView
         android:id="@+id/txtViewYourCPF"
@@ -29,8 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtViewResultLoginHello"
         android:textSize="25dp"
-        android:text="Your CPF is: "
-        android:hint="Your CPF is: "/>
+        android:text="@string/txtView_your_cpf"
+        android:hint="@string/txtView_your_cpf"/>
 
     <TextView
         android:id="@+id/txtViewCPF"

@@ -10,9 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:contentDescription="Your Login is: "
+        android:contentDescription="@string/txtView_your_login"
         android:textSize="25dp"
-        android:hint="Your Login is: "/>
+        android:hint="@string/txtView_your_login"/>
 
     <TextView
         android:id="@+id/txtViewResultLogin"
@@ -20,8 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/txtViewResultLoginHello"
         android:textSize="25dp"
-        android:contentDescription="here is your login"
-        android:hint="here is your login" />
+        android:contentDescription="@string/txtView_here_is_your_login"
+        android:hint="@string/txtView_here_is_your_login" />
 
     <TextView
         android:id="@+id/txtViewResultLoginPassword"
@@ -29,8 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txtViewResultLoginHello"
         android:textSize="25dp"
-        android:text="this is your password: "
-        android:hint="this is your password: " />
+        android:text="@string/txtView_this_is_your_password"
+        android:hint="@string/txtView_this_is_your_password" />
 
     <TextView
         android:id="@+id/txtViewResultPassword"
@@ -39,6 +39,6 @@
         android:layout_below="@id/txtViewResultLogin"
         android:textSize="25dp"
         android:layout_toRightOf="@id/txtViewResultLoginPassword"
-        android:text="Password" />
+        android:text="@string/txtView_password" />
 
 </RelativeLayout>
